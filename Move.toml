@@ -1,0 +1,16 @@
+[package]
+name = "kudos_board"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "45bf60e28a9ff9a3efc927ee18c573ea4eaebc1a84c71823f6ae284af9c2ab6e"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
